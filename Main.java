@@ -8,7 +8,7 @@ import Practica.Ejercicios.Agua;;
 public class Main { // Clase Main
     public static void main(String[] args) {
 
-        // Datos de los ejercicios realizados
+        // Datos para impremir los ejercicios realizados
         System.out.println("Datos de inicio de ejercicios de la practica:");
         System.out.println("1. Ejercicio sobre la empresa de autos");
         System.out.println("2. Ejercicio sobre el costo de llamadas telefonicas internacionales");
@@ -20,7 +20,8 @@ public class Main { // Clase Main
         int opcion; // Declarar la variable
         opcion = scanner.nextInt();
 
-        switch (opcion) { // Switch de los ejercicios
+        switch (opcion) { // Switch de los ejercicios2
+
             case 1:
 
                 System.out.println(" Negocio de autos usados");
@@ -40,6 +41,8 @@ public class Main { // Clase Main
                 break;
         
             default:
+
+                System.out.println("El valor que ingreso es invalido. Por favor, ingrese el valor de 1,2,3 o 4 de las opciones de los ejercicios que quiera realizar ");
                 break;
         }
 

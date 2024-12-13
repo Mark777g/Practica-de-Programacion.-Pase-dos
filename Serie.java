@@ -8,14 +8,12 @@ public class Serie { // Clase de Serie
         Scanner scanner = new Scanner(System.in); // Abrir scanner
         
         System.out.println("Ingrese el valor numerico que desea calcular:"); // Pedir el valor numerico
-        int valor_numerico = scanner.nextInt(); // Declarar variable del valor numerico
+        int valor_numerico = scanner.nextInt(); 
 
-        double Final = Serie_dos.procedimiento(valor_numerico); // Declarar variable valor final
+        double resultadoFinal = Serie_dos.serieDos(valor_numerico); // Declarar variable valor final
 
-        System.out.println("El resultado de la secuenia es:"+Final); // Presentar el valor de la secuencia
+        System.out.println("El resultado de la secuencia es: " + resultadoFinal); // Presentar el valor de la secuencia
 
-        scanner.close();
-
-        //Cerrar scanner
+        scanner.close(); // Cerrar scanner
     }
 }
